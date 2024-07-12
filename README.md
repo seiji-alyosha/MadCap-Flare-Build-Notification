@@ -43,9 +43,11 @@ Once the batch file is complete, users can use it in MadCap Flare to run the bui
 2. Open a Target.
 3. Select the **Build Events** tab on the left hand menu of the target.
 4. In the **Post-Build Event Command** section, copy and paste the location of the batch file.
+
     >**Example:** "D:\path\to\batch\file"
-4. Save your changes.
-5. Build the target.
+
+5. Save your changes.
+6. Build the target.
 
 After the build finishes, a notification should pop-up informing you that the build is complete. 
 
