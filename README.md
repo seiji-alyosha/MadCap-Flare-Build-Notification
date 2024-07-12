@@ -24,9 +24,14 @@ To implement the notification, users can run a batch file. Complete the steps in
 
     >**Example:** Visual Studio Code, Notepad++, etc.
 
-4. Type '@echo off' on one line, and 'python' on the next line.
+4. Type `@echo off` on one line, and `python` on the next line.
 
-5. Paste the path of the python script in front of 'python'. 
+5. Paste the path of the python script in front of `python`.
+
+```
+@echo off
+python C:path\to\python\file
+```
 
 6. Save and name the batch file.
 
@@ -37,9 +42,9 @@ Once the batch file is complete, users can use it in MadCap Flare to run the bui
 1. Open a MadCap Flare project.
 2. Open a Target.
 3. Select the **Post-Build Command** tab on the left hand menu of the target.
-4. Enter **Run** and the location of the batch file.
+4. Enter the location of the batch file.
     
-    >**Example:** Run D:\path\to\batch\file
+    >**Example:** D:\path\to\batch\file
 4. Save your changes.
 5. Build the target.
 
