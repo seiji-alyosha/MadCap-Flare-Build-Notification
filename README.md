@@ -24,11 +24,11 @@ To implement the notification, users can run a batch file. Complete the steps in
 
     >**Example:** Visual Studio Code, Notepad++, etc.
 
-4.  Type **cd** and paste the path location of the script.
+4. Type '@echo off' on one line, and 'python' on the next line.
 
-    >**Example:** cd C:\path\to\python\script
+5. Paste the path of the python script in front of 'python'. 
 
-5. Save and name the batch file.
+6. Save and name the batch file.
 
 ### Running the Batch File in Flare
 
